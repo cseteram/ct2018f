@@ -14,7 +14,7 @@ g++ -o decoding decoding.cpp -Wall -std=c++11 -O2
 
 ## Execute
 ```
-./encoding sample/infile.txt encoding.txt
-./decoding encoding.txt outfile.txt
-diff sample/infile.txt outfile.txt
+./encoding sample/ta_in.txt ta_enc.txt
+./decoding ta_enc.txt ta_out.txt
+diff sample/ta_in.txt ta_out.txt
 ```
